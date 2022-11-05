@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'heebo';
+  src: url('./heebo-variablefont_wght-webfont.woff2') format('woff2'),
+    url('./heebo-variablefont_wght-webfont.woff') format('woff'),
+    url('./Heebo-VariableFont_wght.ttf') format('truetype');
+}
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+} 
+
+div#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: stretch;
+    border: 1px solid pink;
+    height: 100vh;
+    background: url("./blurry-gradient-haikei.svg#svgView(preserveAspectRatio(none))") no-repeat;
+      background-size: 100% 100%;
+  
+}
+
+.header, .footer {
+  border: 1px solid blue;
+  flex: 1.5;
+  font-family: 'heebo';
+  font-size: 80px;
+  
+}
+
+.main {
+  flex: 4;
+    
+}
+
+.header {
+  background: url("./layered-waves-haikei.svg#svgView(preserveAspectRatio(none))") no-repeat;
+  background-size: 100% 200%;
+}
+
+.footer {
+  background: url("./wave-haikei.svg#svgView(preserveAspectRatio(none))") no-repeat;
+  background-size: 100% 100%;
+  
+} 
