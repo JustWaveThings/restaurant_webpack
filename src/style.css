@@ -18,17 +18,42 @@ div#content {
     align-items: stretch;
     border: 1px solid pink;
     height: 100vh;
-    background: url("./blurry-gradient-haikei.svg#svgView(preserveAspectRatio(none))") no-repeat;
+    background-image: url("./YellowCurry-2_2000x.png"), url("./blurry-gradient-haikei.svg#svgView(preserveAspectRatio(none))");
       background-size: 100% 100%;
   
 }
 
 .header, .footer {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   flex: 1.5;
   font-family: 'heebo';
-  font-size: 80px;
+  font-size: 95px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   
+}
+.title {
+  align-self: center;
+  justify-self: center;
+  -webkit-text-stroke: 5px black;
+  text-shadow: 6px 6px 0px rgba(236, 230, 230, 0.531);
+}
+
+.btn-container{
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.btn-container>div {
+  text-shadow: 1.5px 1.5px 0px rgba(236, 230, 230, 0.049);
+  font-size: 2rem;
+  color: #B8CEF0;
+  padding: 8px 20px;
+  background-color: rgb(169, 65, 28);
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
 .main {
@@ -45,4 +70,6 @@ div#content {
   background: url("./wave-haikei.svg#svgView(preserveAspectRatio(none))") no-repeat;
   background-size: 100% 100%;
   
-} 
+} rgb(15, 30, 136)
+rgb(169, 65, 28)
+B8CEF0
