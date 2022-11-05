@@ -128,3 +128,4 @@ dist
 package-lock.json
 package.json
 webpack.config.js
+.DS_Store
