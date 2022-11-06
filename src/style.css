@@ -16,7 +16,6 @@ div#content {
     flex-direction: column;
     justify-content: space-between; 
     align-items: stretch;
-    border: 1px solid pink;
     height: 100vh;
     background-image: url("./YellowCurry-2_2000x.png"), url("./blurry-gradient-haikei.svg#svgView(preserveAspectRatio(none))");
       background-size: 100% 100%;
@@ -24,13 +23,14 @@ div#content {
 }
 
 .header, .footer {
-  /* border: 1px solid blue; */
+
   flex: 1.5;
   font-family: 'heebo';
   font-size: 95px;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  white-space: nowrap;
   
 }
 .title {
@@ -57,8 +57,12 @@ div#content {
 }
 
 .main {
+  display: flex;
+  flex-direction: column;
   flex: 4;
-    
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .header {
@@ -73,3 +77,25 @@ div#content {
 }/*  rgb(15, 30, 136)
 rgb(169, 65, 28)
 B8CEF0 */
+
+.contact-header {
+  font-family: 'heebo';
+  font-size: 45px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+
+} 
+
+.contact-body {
+    font-family: 'heebo';
+    color: white;
+    font-size: larger;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    padding-right:100px;
+      background-color: rgba(0, 0, 0, 0.7);
+}
