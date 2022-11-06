@@ -20,7 +20,9 @@ container.appendChild(component('main'));
 
 const mainContainer = document.querySelector('#content > div.main');
 
-mainContainer.appendChild(component('contact-header', 'Contact Us!'));
+mainContainer.appendChild(
+	component('contact-header', "We'd love to hear from you!")
+);
 mainContainer.appendChild(
 	component(
 		'contact-body',
