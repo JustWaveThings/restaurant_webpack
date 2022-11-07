@@ -8,7 +8,9 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  overflow: hidden;
+  min-width: 840px;
+  max-width: 1053px;
+  
 } 
 
 div#content {
@@ -19,6 +21,7 @@ div#content {
     height: 100vh;
     background-image: url("./YellowCurry-2_2000x.png"), url("./blurry-gradient-haikei.svg#svgView(preserveAspectRatio(none))");
       background-size: 100% 100%;
+      overflow-x: hidden;
   
 }
 
@@ -97,5 +100,37 @@ B8CEF0 */
     padding-bottom: 25px;
     padding-left: 100px;
     padding-right:100px;
-      background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.product-container,
+.copy {
+  font-family: 'heebo';
+  color: white;
+  font-size: larger;
+  width: 100%;
+  padding: 30px;
+  ;
+} 
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 200px;
+}
+.copy {
+  flex: 1.5;
+  font-size: medium;
+  min-width: 562px;
+  max-width: 580px;
 }
