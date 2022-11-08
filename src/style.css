@@ -33,7 +33,7 @@ div#content {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  white-space: nowrap;
+  white-space: wrap;
   
 }
 .title {
