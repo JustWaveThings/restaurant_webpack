@@ -3,11 +3,11 @@ import { contact } from './contact.js';
 import { menuPage as menu } from './menu.js';
 import './style.css';
 
-const container2 = document.getElementById('content');
+const container = document.getElementById('content');
 
-const buttons = document.querySelectorAll(
+/* const buttons = document.querySelectorAll(
 	'#content > div.footer > div > div'
-);
+); */
 
 welcome();
 refreshButtons();
@@ -27,7 +27,7 @@ function changePage(e) {
 	return e.target.classList[0];
 }
 
-function clearPage(cont = container2) {
+function clearPage(cont = container) {
 	return cont.replaceChildren();
 }
 
